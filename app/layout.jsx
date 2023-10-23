@@ -1,6 +1,7 @@
 import localFont from 'next/font/local';
 
 import './globals.css'
+import Header from './components/header/Header';
 
 const montserrat = localFont({
   src: [
@@ -32,7 +33,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={montserrat.className}>{children}</body>
+      <body className={montserrat.className + ' bg-color-bg'}>
+        <Header/>
+        {children}
+      </body>
     </html>
   )
 }
