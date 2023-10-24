@@ -4,9 +4,9 @@ const NavBar = () => {
   return (
     <nav>
         <ul className="flex items-center gap-8">
-            <NavItem href='/' title='About' />
-            <NavItem href='/' title='Projects' />
-            <NavItem href='/' title='Contact Me' primary={true}/>
+            <NavItem href='/#about' title='About' />
+            <NavItem href='/#projects' title='Projects' />
+            <NavItem href='/#contact-me' title='Contact Me' primary={true}/>
         </ul>
     </nav>
   )

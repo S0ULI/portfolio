@@ -4,7 +4,7 @@ import Wrapper from './Wrapper';
 
 const AboutMe = () => {
   return (
-    <div className='w-full overflow-x-clip'>
+    <div id='about' className='w-full overflow-x-clip'>
       <Wrapper myStyle='flex justify-between items-center gap-4'>
         <div className='flex flex-col gap-8 w-full'>
             <h2 className="h2-style">About Me</h2>

@@ -15,18 +15,21 @@ const Hero = () => {
                     <p className="text-color-gray-light text-xl">so just click here</p>
                     <Image src='/icon/Arrow-right.svg' alt="👉" width={200} height={75} className="hidden sm:block w-16 animate-move"/>
                     <Image src='/icon/Arrow-down.svg' alt="👇" width={75} height={200} className="h-10 sm:hidden animate-move"/>
-                    <Btn href='/' title="Contact Me" />
+                    <Btn href='/#contact-me' title="Contact Me" />
                 </div>
                 <div className="sm:pls sm:absolute left-0 bottom-0 py-8">
                     <ul className="flex justify-center items-center gap-4">
                         <li>
-                            <a target="_blank" href=''><Image src='/icon/github.svg' width={25} height={25} alt="github"/></a>
+                            <a target="_blank" href='https://github.com/S0ULI'><Image src='/icon/github.svg' width={25} height={25} alt="github"/></a>
                         </li>
                         <li>
-                            <a target="_blank" href=''><Image src='/icon/telegram.svg' width={25} height={25} alt="telegram"/></a>
+                            <span target="_blank" href=''><Image src='/icon/telegram.svg' width={25} height={25} alt="telegram"/></span>
                         </li>
                         <li>
-                            <a target="_blank" href=''><Image src='/icon/whatsapp.svg' width={25} height={25} alt="whatsapp"/></a>
+                            <span target="_blank" href=''><Image src='/icon/whatsapp.svg' width={25} height={25} alt="whatsapp"/></span>
+                        </li>
+                        <li>
+                            <a href='mailto:abolfazl.soltani.dev@gmail.com'><Image src='/icon/mail.svg' width={25} height={25} alt="mail"/></a>
                         </li>
                     </ul>
                 </div>
