@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import React from 'react';
 
-const Btn = ({ link, title }) => {
+const Btn = ({ href, title }) => {
   return (
-    <Link href={link} className="btn">
+    <Link href={href} className="btn">
       {title}
     </Link>
   );

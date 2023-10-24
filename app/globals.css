@@ -11,12 +11,39 @@
     px-4
     py-[0.4rem]
     rounded-full
-    transition-colors
+    transition-transform
     duration-300
     cursor-pointer
+    text-sm
+    font-extralight
   }
   .btn:hover {
     @apply
-    bg-color-accent/90
+    -translate-y-1
+  }
+
+  .scroll-down {
+    @apply
+
+    -translate-y-full
+  }
+
+  .scroll-up {
+    @apply
+    bg-gradient-to-b from-color-bg
+  }
+
+  .minh {
+    min-height: calc(100dvh - 64px);
+    min-height: calc(100vh - 64px);
+  }
+
+  .pls {
+    @apply
+    pl-8
+  }
+  .prs {
+    @apply
+    pr-8
   }
 }
