@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html::-webkit-scrollbar {
+  display: none;
+}
+
 @layer components {
   .btn {
     @apply
