@@ -20,7 +20,7 @@ const Form = () => {
   }
 
   return (
-    <div className='mb-96'>
+    <div className='mb-20'>
       <Wrapper myStyle="w-full flex flex-col gap-6 justify-center items-center">
         <h2 className='h2-style'>Contact Me</h2>
         <form onSubmit={submitHandler} className='flex flex-col gap-6 w-full max-w-md'>
