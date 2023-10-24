@@ -7,7 +7,7 @@ const AboutMe = () => {
     <div className='w-full overflow-x-clip'>
       <Wrapper myStyle='flex justify-between items-center gap-4'>
         <div className='flex flex-col gap-8 w-full'>
-            <h2 className="text-color-secondary text-2xl">About Me</h2>
+            <h2 className="h2-style">About Me</h2>
             <div className='flex flex-col gap-4'>
                 <p className="text-color-gray-light text-xl leading-relaxed text-justify sm:text-left">
                   well as you probably already have seen in this page i am a Front-end

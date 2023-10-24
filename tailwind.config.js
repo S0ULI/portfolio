@@ -14,7 +14,8 @@ module.exports = {
         }
       },
       animation: {
-        'move': 'move 2s ease-in-out infinite'
+        'move': 'move 2s ease-in-out infinite',
+        'spinner': 'spin 0.8s cubic-bezier(.53,.48,.66,.89) infinite'
       },
       backgroundImage: {
         'background-pattern': "url('/image/bg.png')"

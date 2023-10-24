@@ -6,6 +6,18 @@ html::-webkit-scrollbar {
   display: none;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+input, textarea {
+  caret-color: #FFAE81;
+}
+
 @layer components {
   .btn {
     @apply
@@ -53,5 +65,11 @@ html::-webkit-scrollbar {
   .prs {
     @apply
     pr-8
+  }
+
+  .h2-style {
+    @apply
+    text-color-secondary
+    text-2xl
   }
 }
