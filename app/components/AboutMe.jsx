@@ -11,7 +11,7 @@ const AboutMe = () => {
             <div className='flex flex-col gap-4'>
                 <p className="text-color-gray-light text-xl leading-relaxed text-justify sm:text-left">
                   well as you probably already have seen in this page i am a Front-end
-                  <span className="text-color-white"> Developer </span>mostly. i use
+                  <span className="text-color-white"> Developer </span>. i use
                   different and most up to date tools such as react, next js, three js
                   and much more to build your website in the most professional and
                   modern way possible.

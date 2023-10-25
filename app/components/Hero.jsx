@@ -10,9 +10,9 @@ const Hero = () => {
         </div>
         <div className="w-full flex flex-col md:flex-row gap-8 justify-between items-start relative">
             <div className="w-full flex flex-col sm:gap-4 sm:max-w-lg prs pls">
-                <p className="text-color-gray-light text-xl leading-relaxed">You Can Have Your Own Website With Just One Click And Of Course a Little Bit Of Description Of What You Need.</p>
+                <p className="text-color-gray-light text-xl leading-relaxed">You Can Have Your Own Website With Just One Click And a just a Little Description Of What You Need.</p>
                 <div className="flex flex-col sm:flex-row gap-6 sm:gap-0 justify-between items-center mt-10">
-                    <p className="text-color-gray-light text-xl">so just click here</p>
+                    <p className="text-color-gray-light text-xl">So Just Click Here</p>
                     <Image src='/icon/Arrow-right.svg' alt="👉" width={200} height={75} className="hidden sm:block w-16 animate-move"/>
                     <Image src='/icon/Arrow-down.svg' alt="👇" width={75} height={200} className="h-10 sm:hidden animate-move"/>
                     <Btn href='/#contact-me' title="Contact Me" />
